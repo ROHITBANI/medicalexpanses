@@ -1,6 +1,45 @@
-# Predicting medical expenses
-QUESTION: ACME Insurance Inc. offers affordable health insurance to thousands of customer all over the United States. As the lead data scientist at ACME, you're tasked with creating an automated system to estimate the annual medical expenditure for new customers, using information such as their age, sex, BMI, children, smoking habits and region of residence.
 
-Estimates from your system will be used to determine the annual insurance premium (amount paid every month) offered to the customer. Due to regulatory requirements, you must be able to explain why your system outputs a certain prediction.
+# Predicting Medical Expenses
 
-You're given a CSV file containing verified historical data, consisting of the aforementioned information and the actual medical charges incurred by over 1300 customers.
+This project aims to develop an automated system for estimating the annual medical expenditures for new customers of ACME Insurance Inc. By analyzing historical data, the system predicts insurance premiums based on customer demographics and health-related factors.
+
+## Problem Statement
+
+ACME Insurance Inc. provides affordable health insurance to thousands of customers across the United States. As the lead data scientist, you are tasked with creating a model that can predict annual medical expenditures using various customer attributes, such as:
+
+- Age
+- Sex
+- Body Mass Index (BMI)
+- Number of children
+- Smoking habits
+- Region of residence
+
+The predictions will be used to determine the annual insurance premium for each customer. Additionally, due to regulatory requirements, the system must provide explanations for its predictions.
+
+## Dataset
+
+The project utilizes a CSV file containing verified historical data, which includes the following fields:
+
+- `age`: Age of the customer
+- `sex`: Gender of the customer (male/female)
+- `bmi`: Body mass index
+- `children`: Number of children/dependents covered by insurance
+- `smoker`: Smoking status (yes/no)
+- `region`: Customer's region of residence
+- `charges`: Actual medical charges incurred
+
+The dataset contains information from over 1300 customers.
+
+## Requirements
+
+To run this project, you'll need Python installed along with the following libraries:
+
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+- 'Linear Regression'
+
+
+
